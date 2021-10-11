@@ -26,14 +26,14 @@
      <!-- Ejercicio 6 -->
 
      <form>
-        <p><label>Nombre y apellidos: <input></label></p>
+        <p><label>Nombre y apellidos: <input type=text></label></p>
         <fieldset>
          <legend>Valoración: </legend>
-         <p><label> <input type=radio name=size> Mala </label></p>
-         <p><label> <input type=radio name=size> Normal </label></p>
-         <p><label> <input type=radio name=size> Buena </label></p>
+         <p><input type=radio name=valoración id="mala"> <label for="mala"> Mala </label> </p>
+         <p><input type=radio name=valoración id="norm"> <label for="norm"> Normal </label> </p>
+         <p><input type=radio name=valoración id="buen"> <label for="buen"> Buena </label> </p>
         </fieldset>
-        <p><label>Opinión: <textarea></textarea></label></p>
+        <p><label for="op">Opinión: </label> <textarea id="op"></textarea></p>
         <p><input type="submit" value="Enviar"></p>
        </form>
 
