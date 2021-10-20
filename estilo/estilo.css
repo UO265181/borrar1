@@ -60,6 +60,10 @@ nav ul li a {
     text-decoration: none;
 }
 
+article p {
+    text-align: justify;
+}
+
 
 /* Especifidad (0,0,1) */
 
