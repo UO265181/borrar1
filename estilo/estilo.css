@@ -1,0 +1,116 @@
+/* Especifidad (0,0,1) */
+
+body {
+    font-family: Cambria, serif, sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    color: #000000;
+    background-color: whitesmoke;
+    margin: 2%;
+}
+
+
+/* Especifidad (0,0,1) */
+
+header {
+    padding: 30px;
+    background: #2e2e2e;
+    color: #000000;
+    text-align: center;
+}
+
+
+/* Especifidad (0,0,2) */
+
+header h1 {
+    font-size: 65px;
+    font-style: italic;
+    font-weight: 800;
+    font-variant: small-caps;
+    color: #ffffff;
+    background: #000000;
+}
+
+
+/* Especifidad (0,0,1) */
+
+ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 1%;
+    background-color: #2e2e2e;
+    color: white;
+}
+
+
+/* Especifidad (0,0,1) */
+
+li {
+    padding-right: 1%;
+}
+
+
+/* Especifidad (0,0,4) */
+
+nav ul li a {
+    background-color: #304240;
+    color: white;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+
+/* Especifidad (0,0,1) */
+
+article h3 {
+    color: rgb(255, 255, 255);
+    background-color: #304240;
+}
+
+
+/* Especifidad (0,0,1) */
+
+article h4 {
+    color: rgb(255, 255, 255);
+    background-color: #224743;
+}
+
+aside h2 {
+    color: rgb(255, 255, 255);
+    background-color: #3d3042;
+}
+
+aside h3 {
+    color: rgb(255, 255, 255);
+    background-color: #472245;
+}
+
+
+/* Especifidad (0,0,1) */
+
+section {
+    margin-right: 2%;
+    text-align: justify;
+    margin-bottom: 3%;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    background-color: #2e2e2e;
+}
+
+
+/* Especifidad (0,0,2) */
+
+article article {
+    margin-right: 2%;
+    margin-bottom: 1%;
+}
+
+
+/* Especifidad (0,0,1) */
+
+footer {
+    padding: 1%;
+}

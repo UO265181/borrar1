@@ -11,7 +11,8 @@
     <meta name="description" content="Sitio web destinado a mostrar información sobre Grace Murray Hopper.">
     <meta name="keywords" content="Grace, Murray, Hopper, biografía, informática, programación, COBOL" />
     <meta name="viewport" content="width=device-width, initial scale=1.0" />
-
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/estructura.css" />
 
     <title>Grace Hopper - Inicio</title>
 </head>
@@ -20,46 +21,62 @@
 
 <body>
     <!-- Datos con el contenidos que aparece en el navegador -->
-    <h1>Grace Murray Hopper</h1>
 
-    <!-- Ejercicio 2 -->
-    <img src="multimedia/images/Grace.jpg" alt="Grace Murray Hopper" />
+    <header>
+        <h1>Grace Hopper</h1>
 
-    <img src="casatata.jpg" title="La casa de tata" alt="imagen de la casa de tata"> </img>
+        <nav>
+            <ul>
+                <li> <a title="Enlace a la página principal" target="_self" tabIndex=1 accesskey="I" href="/index.html">Inicio</a> </li>
+                <li> <a title="Enlace a la página de logros" target="_new" tabIndex=2 accesskey="L" href="/logros.html">Logros</a> </li>
+                <li> <a title="Enlace a la página de premios" target="_new" tabIndex=3 accesskey="P" href="/premios.html">Premios</a> </li>
+                <li> <a title="Enlace a la página de opiniones" target="_new" tabIndex=4 accesskey="O" href="/opiniones.html">Opiniones</a> </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Información Principal</h2>
+            <article>
+                <h3>Introducción</h3>
+                <p>Grace Murray Hopper (Nueva York, 9 de diciembre de 1906 - Condado de Arlington, 1 de enero de 1992) fue una científica de la computación y militar estadounidense con grado de contraalmirante. Fue pionera en el mundo de las ciencias de
+                    la computación y la primera programadora que utilizó el Mark I. Entre las décadas de los 50 y 60 desarrolló el primer compilador para un lenguaje de programación así como también propició métodos de validación.</p>
+            </article>
+
+            <article>
+                <h3> Charla en la Universidad de Tennessee </h3>
+                <p> En 1993 Hopper dió una charla muy recordada (como muchas otras, por ejemplo en el MIT). Aquí aun pequeño fragmento: </p>
+            </article>
+
+            <article>
+                <h3> Otros </h3>
+                <p>Popularizó la idea de los lenguajes de programación independientes de la máquina, lo que derivó en el desarrollo de COBOL, un lenguaje de alto nivel de programación que aún se utiliza. Era conocida por sus amistades como Amazing Grace.</p>
+            </article>
+        </section>
 
 
-    <p>
-        Grace Murray Hopper (Nueva York, 9 de diciembre de 1906 - Condado de Arlington, 1 de enero de 1992) fue una
-        científica de la computación y militar estadounidense con grado de contraalmirante. Fue pionera en el mundo de
-        las ciencias de la computación y la primera programadora que utilizó el Mark I. Entre las décadas de los 50 y 60
-        desarrolló el primer compilador para un lenguaje de programación así como también propició métodos de
-        validación.</p>
-
-    <h2> Charla en la Universidad de Tennessee </h2>
-
-    <p> En 1993 Hopper dió una charla muy recordada (como muchas otras, por ejemplo en el MIT).
-        Aquí aun pequeño fragmento:
-    </p>
-
-    <source src="charla.m4a" type="audio/m4a;">
 
 
-    <p>
-        Popularizó la idea de los lenguajes de programación independientes de la máquina, lo que derivó en el desarrollo
-        de COBOL, un lenguaje de alto nivel de programación que aún se utiliza. Era conocida por sus amistades como
-        Amazing Grace.</p>
+        <aside>
+            <h2>Imágenes</h2>
 
+            <section>
+                <h3>Grace Murray Hopper</h3>
+                <img src="multimedia/images/Grace.jpg" alt="Grace Murray Hopper" />
+            </section>
 
+        </aside>
 
-
-
-    <footer>
-        <img src="multimedia/images/HTML5.png" alt="HTML5 Válido!" />
-        <img src="multimedia/images/CSS3.png" alt="CSS Válido!" />
-    </footer>
-
+    </main>
 
 </body>
 
+<footer>
+    <img src="multimedia/images/HTML5.png" alt="HTML5 Válido!" />
+    <img src="multimedia/images/CSS3.png" alt="CSS Válido!" />
+</footer>
 
 </html>

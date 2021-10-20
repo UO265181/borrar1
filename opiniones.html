@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 
 <html lang="es">
+
 <head>
     <!-- Datos que describen el documento -->
     <meta charset="UTF-8" />
@@ -9,8 +10,9 @@
     <meta name="author" content="UO265181">
     <meta name="description" content="Formulario para opinar sobre Grace Hopper">
     <meta name="keywords" content="Grace, Hopper, opiniones" />
-    <meta name ="viewport" content ="width=device-width, initial scale=1.0" />
-
+    <meta name="viewport" content="width=device-width, initial scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/estructura.css" />
 
     <title>Grace Hopper - Opiniones</title>
 </head>
@@ -19,33 +21,60 @@
 
 
 <body>
-    <!-- Datos con el contenidos que aparece en el navegador -->
-    <h1>Formulario de opiniones de Grace Hopper</h1>
 
-    
-     <!-- Ejercicio 6 -->
+    <header>
+        <h1>Grace Hopper</h1>
 
-     <form>
-        <p><label for="nom">Nombre y apellidos: </label><input type=text id="nom"></p>
-        <fieldset>
-         <legend>Valoración: </legend>
-         <p><input type=radio name=valoración id="mala"> <label for="mala"> Mala </label> </p>
-         <p><input type=radio name=valoración id="norm"> <label for="norm"> Normal </label> </p>
-         <p><input type=radio name=valoración id="buen"> <label for="buen"> Buena </label> </p>
-        </fieldset>
-        <p><label for="op">Opinión: </label> <textarea id="op"></textarea></p>
-        <p><input type="submit" value="Enviar"></p>
-       </form>
 
+        <nav>
+            <ul>
+                <li> <a title="Enlace a la página principal" target="_parent" tabIndex=1 accesskey="I" href="/index.html">Inicio</a> </li>
+                <li> <a title="Enlace a la página de logros" target="_new" tabIndex=2 accesskey="L" href="/logros.html">Logros</a> </li>
+                <li> <a title="Enlace a la página de premios" target="_new" tabIndex=3 accesskey="P" href="/premios.html">Premios</a> </li>
+                <li> <a title="Enlace a la página de opiniones" target="_self" tabIndex=4 accesskey="O" href="/opiniones.html">Opiniones</a> </li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+
+
+
+
+
+        <section>
+
+            <h2>Página de opiniones de Grace Hopper</h2>
+
+            <article>
+
+                <h3>Formulario</h3>
+
+                <!-- Ejercicio 6 -->
+
+                <form>
+                    <p><label for="nom">Nombre y apellidos: </label><input type=text id="nom"></p>
+                    <fieldset>
+                        <legend>Valoración: </legend>
+                        <p><input type=radio name=valoración id="mala"> <label for="mala"> Mala </label> </p>
+                        <p><input type=radio name=valoración id="norm"> <label for="norm"> Normal </label> </p>
+                        <p><input type=radio name=valoración id="buen"> <label for="buen"> Buena </label> </p>
+                    </fieldset>
+                    <p><label for="op">Opinión: </label> <textarea id="op"></textarea></p>
+                    <p><input type="submit" value="Enviar"></p>
+                </form>
+
+            </article>
+
+        </section>
+
+    </main>
+</body>
 
 
 <footer>
     <img src="multimedia/images/HTML5.png" alt="HTML5 Válido!" />
-    <img src="multimedia/images/CSS3.png"  alt="CSS Válido!"  />
+    <img src="multimedia/images/CSS3.png" alt="CSS Válido!" />
 </footer>
-
-
-</body>
-
 
 </html>
