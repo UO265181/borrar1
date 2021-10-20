@@ -11,16 +11,17 @@ main {
 
 main {
     display: grid;
-    grid: "s a";
     grid-template-columns: 75% 1fr auto;
 }
 
 section {
-    grid-area: s;
+    grid-column: 1;
+    grid-row: 1;
 }
 
 aside {
-    grid-area: a;
+    grid-column: 2;
+    grid-row: 1;
 }
 
 
