@@ -102,21 +102,6 @@ aside h3 {
 
 /* Especifidad (0,0,1) */
 
-section {
-    margin-right: 2%;
-}
-
-
-/* Especifidad (0,0,1) */
-
-aside {
-    margin-right: 2%;
-    margin-bottom: 3%;
-}
-
-
-/* Especifidad (0,0,1) */
-
 h2 {
     color: rgb(255, 255, 255);
     background-color: #2e2e2e;
