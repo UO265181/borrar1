@@ -38,9 +38,8 @@ li {
 
 /* Especifidad (0,0,1) */
 
-a img {
-    max-width: 100%;
-    height: auto;
+aside {
+    width: max-content;
 }
 
 
