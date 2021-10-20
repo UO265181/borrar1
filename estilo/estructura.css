@@ -38,13 +38,6 @@ li {
 
 /* Especifidad (0,0,1) */
 
-aside {
-    width: max-content;
-}
-
-
-/* Especifidad (0,0,1) */
-
 video {
     width: 50%;
     height: auto;
