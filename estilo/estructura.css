@@ -11,7 +11,7 @@ main {
 
 main {
     display: grid;
-    grid-template-columns: 75% 1fr 25%;
+    grid-template-columns: 75% auto;
 }
 
 
