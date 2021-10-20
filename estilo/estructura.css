@@ -17,21 +17,21 @@ main {
 
 /* Especifidad (0,0,1) */
 
-a {
+header a {
     display: block;
 }
 
 
 /* Especifidad (0,0,1) */
 
-ul {
+header ul {
     overflow: hidden;
 }
 
 
 /* Especifidad (0,0,1) */
 
-li {
+header li {
     float: left;
 }
 
