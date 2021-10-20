@@ -121,3 +121,15 @@ article article {
 footer {
     padding: 1%;
 }
+
+table {
+    width: 100%;
+    border: 1px solid #000;
+}
+
+th,
+td {
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #000;
+}
