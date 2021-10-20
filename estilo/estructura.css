@@ -7,29 +7,26 @@ main {
     padding: 5px;
     background-color: #dadada;
     color: black;
-}
-
-main {
     display: grid;
     grid-template-columns: 75% auto;
 }
 
 
-/* Especifidad (0,0,1) */
+/* Especifidad (0,0,2) */
 
 header a {
     display: block;
 }
 
 
-/* Especifidad (0,0,1) */
+/* Especifidad (0,0,2) */
 
 header ul {
     overflow: hidden;
 }
 
 
-/* Especifidad (0,0,1) */
+/* Especifidad (0,0,2) */
 
 header li {
     float: left;
@@ -42,4 +39,52 @@ video {
     width: 50%;
     height: auto;
     padding-left: 3%;
+}
+
+
+/* Especifidad (0,0,2) */
+
+article article {
+    margin-right: 2%;
+    margin-bottom: 1%;
+}
+
+
+/* Especifidad (0,0,1) */
+
+footer {
+    padding: 1%;
+}
+
+
+/* Especifidad (0,0,1) */
+
+table {
+    width: 100%;
+    border: 1px solid #000;
+}
+
+
+/* Especifidad (0,0,1) */
+
+th,
+td {
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #000;
+}
+
+
+/* Especifidad (0,0,1) */
+
+section {
+    margin-right: 2%;
+}
+
+
+/* Especifidad (0,0,1) */
+
+aside {
+    margin-right: 2%;
+    margin-bottom: 3%;
 }
